@@ -1,0 +1,74 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"19 C:\Users\ssc002\Document\Test\Repo_phap\PWM_BAI1.X\bai_1.c
+[v _configPwm configPwm `(v  1 e 1 0 ]
+"46
+[v _declarePort declarePort `(v  1 e 1 0 ]
+"52
+[v _main main `(v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"765 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
+[v _TMR2 TMR2 `VEuc  1 e 1 @17 ]
+"772
+[v _T2CON T2CON `VEuc  1 e 1 @18 ]
+"927
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @21 ]
+"941
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @23 ]
+"1154
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @27 ]
+"1168
+[v _CCP2CON CCP2CON `VEuc  1 e 1 @29 ]
+"2041
+[v _PR2 PR2 `VEuc  1 e 1 @146 ]
+"3387
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3449
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"3848
+[v _DC1B0 DC1B0 `VEb  1 e 0 @188 ]
+"3851
+[v _DC1B1 DC1B1 `VEb  1 e 0 @189 ]
+"3854
+[v _DC2B0 DC2B0 `VEb  1 e 0 @236 ]
+"3857
+[v _DC2B1 DC2B1 `VEb  1 e 0 @237 ]
+"4205
+[v _RE0 RE0 `VEb  1 e 0 @72 ]
+"4352
+[v _T2CKPS0 T2CKPS0 `VEb  1 e 0 @144 ]
+"4355
+[v _T2CKPS1 T2CKPS1 `VEb  1 e 0 @145 ]
+"4385
+[v _TMR2ON TMR2ON `VEb  1 e 0 @146 ]
+"4451
+[v _TRISC1 TRISC1 `VEb  1 e 0 @1081 ]
+"4454
+[v _TRISC2 TRISC2 `VEb  1 e 0 @1082 ]
+"4496
+[v _TRISE0 TRISE0 `VEb  1 e 0 @1096 ]
+"52 C:\Users\ssc002\Document\Test\Repo_phap\PWM_BAI1.X\bai_1.c
+[v _main main `(v  1 e 1 0 ]
+{
+"56
+} 0
+"46
+[v _declarePort declarePort `(v  1 e 1 0 ]
+{
+"50
+} 0
+"19
+[v _configPwm configPwm `(v  1 e 1 0 ]
+{
+"44
+} 0

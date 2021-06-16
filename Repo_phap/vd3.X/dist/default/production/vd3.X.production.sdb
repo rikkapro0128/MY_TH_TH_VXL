@@ -1,0 +1,147 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"18 C:\Users\ssc002/Documents/Thu vien lcd/Thu vien lcd/PIC/lcd.c
+[v _lcd_busy lcd_busy `(uc  1 e 1 0 ]
+"103
+[v _lcd_put_nibble lcd_put_nibble `(v  1 e 1 0 ]
+"134
+[v _lcd_put_byte lcd_put_byte `(v  1 e 1 0 ]
+"167
+[v _lcd_gotoxy lcd_gotoxy `(v  1 e 1 0 ]
+"190
+[v _lcd_putc lcd_putc `(v  1 e 1 0 ]
+"224
+[v _lcd_puts lcd_puts `(v  1 e 1 0 ]
+"241
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"290
+[v _lcd_ShiftLeft lcd_ShiftLeft `(v  1 e 1 0 ]
+"304
+[v _lcd_ShiftRight lcd_ShiftRight `(v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"24 C:\Users\ssc002\Document\Test\vd3.X\newmain.c
+[v _main main `(v  1 e 1 0 ]
+"4184 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
+[v _RD1 RD1 `VEb  1 e 0 @65 ]
+"4187
+[v _RD2 RD2 `VEb  1 e 0 @66 ]
+"4190
+[v _RD3 RD3 `VEb  1 e 0 @67 ]
+"4193
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"4196
+[v _RD5 RD5 `VEb  1 e 0 @69 ]
+"4199
+[v _RD6 RD6 `VEb  1 e 0 @70 ]
+"4202
+[v _RD7 RD7 `VEb  1 e 0 @71 ]
+"4475
+[v _TRISD1 TRISD1 `VEb  1 e 0 @1089 ]
+"4478
+[v _TRISD2 TRISD2 `VEb  1 e 0 @1090 ]
+"4481
+[v _TRISD3 TRISD3 `VEb  1 e 0 @1091 ]
+"4484
+[v _TRISD4 TRISD4 `VEb  1 e 0 @1092 ]
+"4487
+[v _TRISD5 TRISD5 `VEb  1 e 0 @1093 ]
+"4490
+[v _TRISD6 TRISD6 `VEb  1 e 0 @1094 ]
+"4493
+[v _TRISD7 TRISD7 `VEb  1 e 0 @1095 ]
+"24 C:\Users\ssc002\Document\Test\vd3.X\newmain.c
+[v _main main `(v  1 e 1 0 ]
+{
+"31
+[v main@i i `uc  1 a 1 2 ]
+"25
+[v main@dat_line1 dat_line1 `DC[5]uc  1 s 5 dat_line1 ]
+"26
+[v main@dat_line2 dat_line2 `DC[10]uc  1 s 10 dat_line2 ]
+"27
+[v main@cgram_dat cgram_dat `DC[25]uc  1 s 25 cgram_dat ]
+"50
+} 0
+"224 C:\Users\ssc002/Documents/Thu vien lcd/Thu vien lcd/PIC/lcd.c
+[v _lcd_puts lcd_puts `(v  1 e 1 0 ]
+{
+[v lcd_puts@s s `*.24DCuc  1 a 1 wreg ]
+[v lcd_puts@s s `*.24DCuc  1 a 1 wreg ]
+[v lcd_puts@s s `*.24DCuc  1 a 1 0 ]
+"233
+} 0
+"190
+[v _lcd_putc lcd_putc `(v  1 e 1 0 ]
+{
+[v lcd_putc@c c `uc  1 a 1 wreg ]
+[v lcd_putc@c c `uc  1 a 1 wreg ]
+[v lcd_putc@c c `uc  1 a 1 12 ]
+"216
+} 0
+"167
+[v _lcd_gotoxy lcd_gotoxy `(v  1 e 1 0 ]
+{
+[v lcd_gotoxy@col col `uc  1 a 1 wreg ]
+"170
+[v lcd_gotoxy@address address `uc  1 a 1 9 ]
+"167
+[v lcd_gotoxy@col col `uc  1 a 1 wreg ]
+[v lcd_gotoxy@row row `uc  1 p 1 6 ]
+"173
+[v lcd_gotoxy@col col `uc  1 a 1 8 ]
+"182
+} 0
+"241
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"282
+} 0
+"134
+[v _lcd_put_byte lcd_put_byte `(v  1 e 1 0 ]
+{
+[v lcd_put_byte@rs rs `uc  1 a 1 wreg ]
+[v lcd_put_byte@rs rs `uc  1 a 1 wreg ]
+[v lcd_put_byte@b b `uc  1 p 1 3 ]
+"139
+[v lcd_put_byte@rs rs `uc  1 a 1 5 ]
+"158
+} 0
+"103
+[v _lcd_put_nibble lcd_put_nibble `(v  1 e 1 0 ]
+{
+[v lcd_put_nibble@b b `uc  1 a 1 wreg ]
+[s S36 . 1 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+]
+"106
+[u S45 _BYTE_VAL 1 `uc 1 Val 1 0 `S36 1 bits 1 0 ]
+[v lcd_put_nibble@temp temp `S45  1 a 1 2 ]
+"103
+[v lcd_put_nibble@b b `uc  1 a 1 wreg ]
+"109
+[v lcd_put_nibble@b b `uc  1 a 1 1 ]
+"125
+} 0
+"18
+[v _lcd_busy lcd_busy `(uc  1 e 1 0 ]
+{
+"21
+[v lcd_busy@busy busy `uc  1 a 1 1 ]
+"44
+} 0
